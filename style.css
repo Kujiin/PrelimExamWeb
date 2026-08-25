@@ -1,7 +1,7 @@
 body {
   font-family: Arial;  
   background-color: #121212;
-  color: #e0e0e0;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -52,4 +52,16 @@ body {
   font-size: 1.2rem;
   color: #ffffff;
   text-decoration: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
