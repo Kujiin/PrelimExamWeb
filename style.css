@@ -163,57 +163,96 @@ main {
   font-weight: bold;
   color: #FBE28D;
 }
+.form-section {
+  padding: 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .form-wrapper {
-  max-width: 450px;
+  max-width: 500px;
   margin: 0 auto;
-  background-color: #1c1c1c;
-  border-top:#F59B14  3px solid;
-  border-radius: 6px;
-  padding: 30px;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+  padding: 15px 25px;
+  border-top: 4px solid #e67e22;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .form-wrapper .section-title {
-  margin-bottom: 20px;
+  color: #e67e22;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 650;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .form-group {
   margin-bottom: 20px;
 }
+
 .form-group label {
   display: block;
-  color: #FBE28D;
-  font-size: 0.85rem;
-  font-weight: 600;
-  margin-bottom: 8px;
+  color: #d3be77;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .form-group input,
 .form-group select {
   width: 100%;
-  padding: 10px 0px;
+  padding: 12px 14px;
   background-color: #0d0d0d;
-  border: 1px solid #333;
-  border-radius: 5px;
-  color: #888888;
-  font-size: 0.85rem;
+  border: 1px solid #282828;
+  border-radius: 4px;
+  color: #cccccc;
+  font-size: 0.9rem;
   outline: none;
+  box-sizing: border-box;
 }
+
 .form-group input::placeholder {
-  color: #666666;
+  color: #555555;
 }
+
+.form-group select {
+  cursor: pointer;
+  appearance: auto;
+}
+
 .btn {
-  background-color: #1c1c1c;
-  color: #ffb74d;
-  border: 1px solid #d9822b;
-  padding: 8px 16px;
+  align-self: flex-start;
+  background-color: #1a1a1a;
+  color: #e67e22;
+  border: 1px solid #e67e22;
+  padding: 10px 20px;
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 4px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  margin-top: 5px;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #d9822b;
-  color: #121212;
+  background-color: #e67e22;
+  color: #1a1a1a;
+}
+.main-footer {
+  width: 105%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #777777;
+  border-top: 1px solid #303030;
+  margin-top: auto;
 }
