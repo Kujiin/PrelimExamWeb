@@ -7,7 +7,6 @@ body {
   min-height: 100vh;
   align-items: center;
 }
-
 .header-container,
 .hero-container,
 .section-container,
@@ -107,6 +106,16 @@ main {
   display: flex;
   justify-content: center;
 }
+.form-section {
+    width: 105%;
+    border-top: 2px solid #292929;
+}
+.programs-section {
+    width: 105%;
+    border-top: 2px solid #292929;
+    border-bottom: 2px solid #292929;
+    background-color: #161616;
+}
 
 .programs-grid {
   display: grid;
@@ -176,12 +185,12 @@ main {
   background-color: #1a1a1a;
   border-radius: 4px;
   padding: 15px 25px;
-  border-top: 4px solid #e67e22;
+  border-top: 4px solid #F59B14;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .form-wrapper .section-title {
-  color: #e67e22;
+  color: #F59B14;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 650;
@@ -201,7 +210,7 @@ main {
 
 .form-group label {
   display: block;
-  color: #d3be77;
+  color: #FBE28D;
   font-size: 0.9rem;
   font-weight: 700;
   margin-bottom: 10px;
@@ -232,8 +241,8 @@ main {
 .btn {
   align-self: flex-start;
   background-color: #1a1a1a;
-  color: #e67e22;
-  border: 1px solid #e67e22;
+  color: #F59B14;
+  border: 1px solid #F59B14;
   padding: 10px 20px;
   font-size: 0.85rem;
   font-weight: 700;
@@ -244,10 +253,11 @@ main {
 }
 
 .btn:hover {
-  background-color: #e67e22;
+  background-color: #F59B14;
   color: #1a1a1a;
 }
 .main-footer {
+  background-color: #0d0d0d;
   width: 105%;
   padding: 20px 0;
   text-align: center;
