@@ -6,3 +6,23 @@ body {
   min-height: 100vh;
   align-items: center;
 }
+
+.header-container,
+.hero-container,
+.section-container,
+.footer-container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: #d9822b;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
