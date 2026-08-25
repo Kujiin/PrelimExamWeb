@@ -181,7 +181,7 @@ main {
 }
 .form-group label {
   display: block;
-  color: #ffb74d;
+  color: #FBE28D;
   font-size: 0.85rem;
   font-weight: 600;
   margin-bottom: 8px;
@@ -190,10 +190,10 @@ main {
 .form-group input,
 .form-group select {
   width: 100%;
-  padding: 10px 12px;
+  padding: 10px 0px;
   background-color: #0d0d0d;
   border: 1px solid #333;
-  border-radius: 4px;
+  border-radius: 5px;
   color: #888888;
   font-size: 0.85rem;
   outline: none;
@@ -201,4 +201,19 @@ main {
 .form-group input::placeholder {
   color: #666666;
 }
+.btn {
+  background-color: #1c1c1c;
+  color: #ffb74d;
+  border: 1px solid #d9822b;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
 
+.btn:hover {
+  background-color: #d9822b;
+  color: #121212;
+}
