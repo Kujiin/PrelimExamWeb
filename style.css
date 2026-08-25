@@ -163,3 +163,20 @@ main {
   font-weight: bold;
   color: #FBE28D;
 }
+.form-wrapper {
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #1c1c1c;
+  border-top:#F59B14  3px solid;
+  border-radius: 6px;
+  padding: 30px;
+}
+
+.form-wrapper .section-title {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
