@@ -30,7 +30,7 @@ body {
 
 .highlight,
 .highlight-text {
-  color: #F59B14;
+  color: #F2C94C;
 }
 
 .main-header {
@@ -178,5 +178,27 @@ main {
 
 .form-group {
   margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  color: #ffb74d;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  background-color: #0d0d0d;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #888888;
+  font-size: 0.85rem;
+  outline: none;
+}
+.form-group input::placeholder {
+  color: #666666;
 }
 
