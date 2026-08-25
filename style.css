@@ -40,3 +40,16 @@ body {
   display: flex;
   justify-content: center;
 }
+.header-container {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
