@@ -117,7 +117,7 @@ main {
   background-color: #1c1c1c;
   border-radius: 6px;
   padding: 25px 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px #0000004d;
 }
 .card-title {
   color: #F2C94C;
@@ -131,3 +131,16 @@ main {
   font-size: 0.85rem;
   line-height: 1.4;
 }
+.table-wrapper {
+  background-color: #1c1c1c;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.85rem;
+}
+
